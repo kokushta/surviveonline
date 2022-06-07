@@ -1,0 +1,137 @@
+/* dyqani css */
+
+.ngjyra1{
+	color: #EB423F;
+}
+
+.ngjyra2{
+	color: #F7B030;
+}
+
+
+.kreu{
+	/*border-bottom: 3px solid #EB423F;*/
+	min-height: 100px;
+}
+
+.sfondi{
+	background-image: url('img/sfondi.png'); /* ndryshoje këtë imazh sfond që ta përshtatësh me dyqanin tënd */
+	background-size: cover;
+	height: 50px;
+	margin-top: 38px;
+}
+
+.menu-lart{
+	font-size: 1rem;
+	line-height: 1rem;
+	margin: 0.5rem;
+	text-align: right;
+}
+
+.menu-lart a{
+	padding: 0 15px;
+}
+
+.ikona {
+	width: 16px;
+	height: 16px;
+	margin-right: 10px;
+}
+
+.fundi{
+	margin-top: 100px;
+	min-height: 100px;
+}
+
+.fundi p{
+	font-size: 1rem;
+	line-height: 1rem;
+	margin: 0.5rem;
+}
+
+.fundi strong{
+
+}
+
+.fundi img{
+	width: 24px;
+	height: 24px;
+	margin-right: 40px;
+}
+
+.logo{
+	text-align: center;
+	display: block;
+	margin-top: 50px;
+}
+
+.logo img{
+	width: 32px;
+	height: 32px;
+	vertical-align: middle;
+	margin-top: -10px;
+}
+
+.logo span{
+	font-size: 28px;
+	margin-left: 0px;
+	margin-top: -10px;
+}
+
+.kategoria{
+	list-style: none;
+}
+
+.kategoria li{
+	margin-bottom: 10px;
+	border-bottom: 1px dotted #F7B030; /* # ngjyra vijave ndarëse e linkut të kategorisë */
+	margin-left: -40px;
+	color: #999;
+}
+
+.kategoria a, a:hover{
+	text-decoration: none;
+}
+
+.kategoria a{
+	color: #F7B030; /* # ngjyra e linkut të kategorisë */
+}
+
+.kategoria a:hover{
+	color: #EB423F; /* # ngjyra e linkut të kategorisë kur i kalon mausi sipër*/
+}
+
+.produkti, .produkti:hover{
+	padding: 10px;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.produkti:hover{
+	background-color: #f5e4e4; /* # ngjyra e sfondit kur kalojmë me maus mbi produkt */
+}
+
+.produkti p, .produkti-pershkrim p{
+	font-size: 1rem;
+	line-height: 1rem;
+	margin: 0.5rem;
+}
+
+.produkti-pershkrim-padding{
+	padding: 20% 0;
+}
+
+
+.prod-link, .prod-link:hover{
+	text-decoration: none;
+}
+
+.img-responsive{
+	width: 100%;
+	height: auto;
+}
+
+.img-produkt{
+	width: 100px;
+	height: auto;
+}
